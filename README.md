@@ -45,3 +45,17 @@ project/ │
    ```bash
    git clone https://github.com/ProRiko/review-sentiment-analyzer.git
    cd review-sentiment-analyzer
+2. Install the required packages:
+  pip install -r requirements.txt
+
+3. Download NLTK data:
+import nltk
+nltk.download('vader_lexicon')
+
+4. Run the scraper:
+python main.py
+
+🧪 Sample Output
+CSV File: data/reviews.csv
+Sentiment Pie Chart: sentiment_graph.png
+Console Output: Number of positive, negative, and neutral reviews.
