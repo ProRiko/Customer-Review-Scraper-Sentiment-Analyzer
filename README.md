@@ -27,8 +27,10 @@ This project uses Python to scrape customer reviews from websites like Amazon or
 
 project/ │ 
 ├── main.py # Main driver script 
+
 ├── data/ 
   │ └── reviews.csv # CSV file containing scraped reviews 
+
 ├── src/  
   ├── scraper.py # Web scraper logic using Selenium │ 
   ├── sentiment_analysis.py# Sentiment analysis logic 
